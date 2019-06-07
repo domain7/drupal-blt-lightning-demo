@@ -30,6 +30,7 @@
     },
     "extra": {
         "composer-exit-on-patch-failure": true,
+        "blt-alias": "blt blt:init:shell-alias -y --ansi",
         "drupal-scaffold": {
             "initial": {
                 "sites/default/default.services.yml": "sites/default/services.yml",
