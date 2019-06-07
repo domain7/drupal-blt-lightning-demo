@@ -30,7 +30,6 @@
     },
     "extra": {
         "composer-exit-on-patch-failure": true,
-        "blt-alias": "blt blt:init:shell-alias -y --ansi",
         "drupal-scaffold": {
             "initial": {
                 "sites/default/default.services.yml": "sites/default/services.yml",
@@ -104,6 +103,7 @@
         "post-create-project-cmd": [
             "blt internal:create-project:init-repo"
         ],
+        "blt-alias": "blt blt:init:shell-alias --ansi",
         "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
         "nuke": [
             "rm -rf vendor composer.lock docroot/core docroot/modules/contrib docroot/profiles/contrib docroot/themes/contrib",
